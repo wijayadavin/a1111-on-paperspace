@@ -6,8 +6,11 @@
 
 2. Run [launch.ipynb](launch.ipynb) to launch Automatic 1111
 
-3. Run [zip_outputs.ipynb](zip_outputs.ipynb) to zip outputs
+3. (Optional) Run [zip_outputs.ipynb](zip_outputs.ipynb) to zip outputs
 
-4. Using the directory panel on the Paperspace left menu, download the generated zip file inside `/outputs`
+4. (Optional) Download ouputs using the file manager panel (top icon) on the Paperspace left menu:
+    1. Refresh the file manager
+    2. Right click on the generated zip file inside `/outputs`
+    3. Select the option Download
 
-5. Run [delete_outputs.ipynb](delete_outputs.ipynb) to delete outputs
+5. (Optional) Run [delete_outputs.ipynb](delete_outputs.ipynb) to delete outputs
