@@ -10,7 +10,7 @@
 
 4. (Optional) Download ouputs using the file manager panel (top icon) on the Paperspace left menu:
     1. Refresh the file manager
-    2. Right click on the generated zip file inside `/outputs`
+    2. Right click on the generated zip file insiden the outputs folder, e.g. `/outputs/outputs_20230519233742.zip`
     3. Select the option Download
 
 5. (Optional) Run [delete_outputs.ipynb](delete_outputs.ipynb) to delete outputs
