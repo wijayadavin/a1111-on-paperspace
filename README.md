@@ -4,7 +4,10 @@
     git clone https://github.com/wijayadavin/a1111-on-paperspace.git
     ```
 
-2. Run [launch.ipynb](launch.ipynb) to launch Automatic 1111
+2. Run [launch.ipynb](launch.ipynb) to launch Automatic 1111, then wait until the last cell output showing the public URL, e.g:
+   ```
+   Running on public URL: https://xxxxxxxxxxxxxxxxx.gradio.live
+   ```
 
 3. (Optional) Run [zip_outputs.ipynb](zip_outputs.ipynb) to zip outputs
 
