@@ -1,7 +1,7 @@
 # [Automatic 1111 WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) on [Paperspace](https://www.paperspace.com)
 
 ## Usage (Using Notebook)
-1. On [Paperspace terminal](https://docs.paperspace.com/gradient/notebooks/terminal/) run:
+1. On [Paperspace terminal](https://docs.paperspace.com/gradient/notebooks/terminal/) run this command to clone this repository:
     ```
     git clone https://github.com/wijayadavin/a1111-on-paperspace.git
     ```
@@ -25,7 +25,11 @@
 ## Usage (Using Terminal)
 Useful when Notebook is not working properly or there is an issue from Paperspace server
 1. Open [Paperspace terminal](https://docs.paperspace.com/gradient/notebooks/terminal/)
-2. Run this command to install dependencies:
+2. Run this command to clone this repository:
+    ```
+    git clone https://github.com/wijayadavin/a1111-on-paperspace.git
+    ```
+3. Run this command to install dependencies:
     ```
     pip install --upgrade torch==1.9.0
     pip install --upgrade torchvision==0.10.0
