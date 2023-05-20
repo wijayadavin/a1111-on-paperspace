@@ -23,7 +23,13 @@
 ## Usage (Using Terminal)
 Useful when Notebook is not working properly or there is an issue from Paperspace server
 1. Open [Paperspace terminal](https://docs.paperspace.com/gradient/notebooks/terminal/)
-2. Run this command:
+2. Run this command to install dependencies:
+    ```
+    pip install --upgrade torch==1.9.0
+    pip install --upgrade torchvision==0.10.0
+    pip install --upgrade torchaudio==0.9.0
+    ```
+2. Run this command to launch Automatic1111 WebUI:
     ```
     cd /notebooks/stable-diffusion-webui
     !python3 launch.py --enable-insecure-extension-access --share --gradio-auth admin:admin --precision full --no-half --xformers --disable-safe-unpickle
