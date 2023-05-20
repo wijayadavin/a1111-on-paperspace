@@ -38,7 +38,7 @@ Useful when Notebook is not working properly or there is an issue from Paperspac
 2. Run this command to launch Automatic1111 WebUI:
     ```
     cd /notebooks/stable-diffusion-webui
-    !python3 launch.py --enable-insecure-extension-access --share --gradio-auth admin:admin --precision full --no-half --xformers --disable-safe-unpickle
+    python3 launch.py --enable-insecure-extension-access --share --gradio-auth admin:admin --precision full --no-half --xformers --disable-safe-unpickle
     ```
 3. Wait until the terminal output showing the public URL, e.g:
    ```
